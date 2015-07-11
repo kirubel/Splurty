@@ -15,12 +15,12 @@
         <br />
         you need
         <br />
-        to code
+        a vacation
       </div>
     </div>
 
     <div class="col-xs-4">
-      Splurting out unsolicited advice about entrepreneurship since 2014
+      Splurting out unsolicited advice about random stuff since 2015
     </div>
     <div class="col-xs-5">
       <%= link_to 'Contribute', '#' %>
@@ -28,9 +28,24 @@
     </div>
   </header>
   <hr />
-  <br class="clear" />
+ <br class="clear" />
 
-<%= yield %>
+  <div class="container">
+    <%= yield %>
+  </div>
+
+  <div class="footer">
+    <div class="container">
+		<div class="col-xs-6">
+         <%= link_to "This isn't enough, I need more", "#", :class => 'next-quote' %>
+      </div>
+      <div class="col-xs-6 footer-blurb">
+        Proudly hacked in Ashburn, VA by <a href="https://s3-us-west-2.amazonaws.com/kirupicturesbucket/The+Firehose+Project/mypage.html">Kirubel Aklilu</a><br />
+        Want to build your own Splurty Web App - <a href="http://thefirehoseproject.com">Learn how to code here</a>
+
+    </div>
+
+  </div>
 
 </body>
 </html>
