@@ -29,6 +29,8 @@ gem 'jbuilder', '~> 1.2'
 
 gem 'bootstrap-sass', '~> 3.3.4'
 
+gem 'rubocop', require: false
+
 gem 'simple_form'
 
 group :doc do
